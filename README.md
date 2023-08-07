@@ -13,11 +13,11 @@
 ```python
 from junk_generator import junk_generator as generator
  
-generator.generate(max_functions=5)
+generator.generate(amount=5)
 ```
 | Parameter | Type  | Description|
 | :-------- | :---- | :--------- |
-| `max_functions` | `int` | the number of functions to generate |
+| `amount` | `int` | the number of functions to generate |
 | `gDocstring` | `bool` | if the function should include a docstring |
 | `gTypehint` | `bool` | if the function should include type hinting |
 | `gTypecheck` | `bool` | if the function should include type checking |

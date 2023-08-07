@@ -1,7 +1,7 @@
 from junk_generator import junk_generator as generator
  
 generator.generate(
-    max_functions=5,
+    amount=5,
     gDocstring=True,
     gTypehint=True,
     gTypecheck=True,

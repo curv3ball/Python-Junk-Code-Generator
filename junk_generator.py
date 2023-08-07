@@ -33,7 +33,7 @@ class junk_generator:
         return ( random.randint(min, max) )
 
     def generate(
-            max_functions: int = 5, 
+            amount: int = 5, 
             gDocstring: bool = True,
             gTypehint: bool = True,
             gTypecheck: bool = True,
@@ -59,7 +59,7 @@ class junk_generator:
         """
         result = ""
 
-        for i in range(max_functions):
+        for i in range(amount):
             _type = junk_generator.random_type()
             _function = junk_generator.random_text()
             _variable = junk_generator.random_text()
